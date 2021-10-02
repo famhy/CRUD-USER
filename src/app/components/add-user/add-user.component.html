@@ -1,0 +1,20 @@
+<form *ngIf="showAddUser" class="add-from" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="id">Id</label>
+        <input type ="number" name ="id" [(ngModel)]="id" id="id" placeholder="Add Id"/>
+    </div>
+    <div class="form-control">
+        <label for="firstname">Fist name</label>
+        <input type ="text" name ="firstname"  id="firstname" [(ngModel)]="firstname" placeholder="Add Fist name"/>
+    </div>
+    <div class="form-control">
+        <label for="lastname">Last name</label>
+        <input type ="text" name ="lastname"  id="lastname" [(ngModel)]="lastname" placeholder="Add Last name"/>
+    </div>
+    <div class="form-control">
+        <label for="mail">Email</label>
+        <input type ="email" name ="mail"  id="mail" [(ngModel)]="mail" placeholder="Add Email"/>
+    </div>
+    <input type="submit" value="save User" class="btn btn-block ">
+</form>
+ 

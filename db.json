@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "FirstName": "Fehmi",
+      "LastName": "Ben za",
+      "mail": "fahmi@gmail.com"
+    },
+    {
+      "id": 2,
+      "FirstName": "fahmi",
+      "LastName": "zaghden",
+      "mail": "fahmidouiri@gmail.com"
+    },
+    {
+      "id": 3,
+      "FirstName": "fahmi",
+      "LastName": "zaghden",
+      "mail": "fahmidouiri@gmail.com"
+    },
+    {
+      "id": 5,
+      "FirstName": "Fehmi",
+      "LastName": "Ben zaghden",
+      "mail": "fahmidouiri@gmail.com"
+    }
+  ]
+}
