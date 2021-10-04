@@ -16,6 +16,11 @@ import {MatTableModule} from '@angular/material/table';
 import {MatIconModule} from '@angular/material/icon';
 import { UsersItemComponent } from './components/users-item/users-item.component';
 import { AddUserComponent } from './components/add-user/add-user.component'
+import { RouterModule,Routes } from '@angular/router';
+
+const appRoutes: Routes = [
+  {path:"",component:UsersListComponent}
+]
 
 @NgModule({
   declarations: [
@@ -32,7 +37,8 @@ import { AddUserComponent } from './components/add-user/add-user.component'
     MatTableModule,
     HttpClientModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [],
   bootstrap: [AppComponent]
